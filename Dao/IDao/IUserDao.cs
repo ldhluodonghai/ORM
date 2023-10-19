@@ -1,0 +1,14 @@
+﻿using Model.Entitys;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dao.IDao
+{
+    public interface IUserDao : IBaseDao<User>
+    {
+
+    }
+}
